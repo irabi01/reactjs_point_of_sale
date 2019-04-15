@@ -7,6 +7,7 @@ import Suppliers from '../pages/Suppliers'
 import Accounts from '../pages/Accounts'
 import Reports from '../pages/Reports'
 import Setting from '../pages/Setting'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 class SideNavigation extends Component {
@@ -17,13 +18,13 @@ class SideNavigation extends Component {
           {/* Sidebar */}
           <div className="w3-sidebar w3-light-grey w3-bar-block" style={{"width" : "20%"}}>
           <h3 className="w3-bar-item">Logo</h3>
-          <Link to="/" className="w3-bar-item w3-button"><i className="fa fa-home"></i> Dashboard</Link>
-          <Link to="/pos" className="w3-bar-item w3-button">POS</Link>
-          <Link to="/store" className="w3-bar-item w3-button">Store</Link>
-          <Link to="/suppliers" className="w3-bar-item w3-button">Suppliers</Link>
-          <Link to="/accounts" className="w3-bar-item w3-button">Accounts</Link>
-          <Link to="/reports" className="w3-bar-item w3-button">Reports</Link>
-          <Link to="/settings" className="w3-bar-item w3-button">Settings</Link>
+          <Link to="/" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Dashboard</Link>
+          <Link to="/pos" className="w3-bar-item w3-button"><FontAwesomeIcon icon="shopping-cart" /> POS</Link>
+          <Link to="/store" className="w3-bar-item w3-button"><FontAwesomeIcon icon="th-large" /> Store</Link>
+          <Link to="/suppliers" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Suppliers</Link>
+          <Link to="/accounts" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-pie" /> Accounts</Link>
+          <Link to="/reports" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-line" /> Reports</Link>
+          <Link to="/settings" className="w3-bar-item w3-button"><FontAwesomeIcon icon="cogs" /> Settings</Link>
           </div>
 
           {/* Page Content */}
