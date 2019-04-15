@@ -8,6 +8,7 @@ import Accounts from '../pages/Accounts'
 import Reports from '../pages/Reports'
 import Setting from '../pages/Setting'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import TopNavigation from './TopNavigation';
 
 
 class SideNavigation extends Component {
@@ -29,9 +30,10 @@ class SideNavigation extends Component {
 
           {/* Page Content */}
           <div style={{"marginLeft" : "20%"}}>
-              <div className="w3-container w3-teal">
+              {/* <div className="w3-container w3-teal">
                   <h1>Point of Sale ... v1.0.0</h1>
-              </div>
+              </div> */}
+              <TopNavigation/>
               <div className="w3-container">
                   <Switch>
                     <Route path = "/" exact component = {Dashboard}/>
