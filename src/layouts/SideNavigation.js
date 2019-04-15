@@ -16,15 +16,15 @@ class SideNavigation extends Component {
       <Router>
         <div>
           {/* Sidebar */}
-          <div className="w3-sidebar w3-light-grey w3-bar-block" style={{"width" : "20%"}}>
-          <h3 className="w3-bar-item">Logo</h3>
-          <Link to="/" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Dashboard</Link>
-          <Link to="/pos" className="w3-bar-item w3-button"><FontAwesomeIcon icon="shopping-cart" /> POS</Link>
-          <Link to="/store" className="w3-bar-item w3-button"><FontAwesomeIcon icon="th-large" /> Store</Link>
-          <Link to="/suppliers" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Suppliers</Link>
-          <Link to="/accounts" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-pie" /> Accounts</Link>
-          <Link to="/reports" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-line" /> Reports</Link>
-          <Link to="/settings" className="w3-bar-item w3-button"><FontAwesomeIcon icon="cogs" /> Settings</Link>
+          <div className="w3-sidebar w3-bar-block" style={{"width" : "20%"}}>
+            <h3 className="w3-bar-item">Logo</h3>
+            <Link to="/" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Dashboard</Link>
+            <Link to="/pos" className="w3-bar-item w3-button"><FontAwesomeIcon icon="shopping-cart" /> POS</Link>
+            <Link to="/store" className="w3-bar-item w3-button"><FontAwesomeIcon icon="th-large" /> Store</Link>
+            <Link to="/suppliers" className="w3-bar-item w3-button"><FontAwesomeIcon icon="truck" /> Suppliers</Link>
+            <Link to="/accounts" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-pie" /> Accounts</Link>
+            <Link to="/reports" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-line" /> Reports</Link>
+            <Link to="/settings" className="w3-bar-item w3-button"><FontAwesomeIcon icon="cogs" /> Settings</Link>
           </div>
 
           {/* Page Content */}

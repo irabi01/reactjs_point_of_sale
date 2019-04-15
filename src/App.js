@@ -11,13 +11,14 @@ import {
    faChartPie, 
    faChartLine, 
    faThLarge,
-   faShoppingCart
+   faShoppingCart,
+   faTruck
   } from '@fortawesome/free-solid-svg-icons'
 
 import SideNavigation from './layouts/SideNavigation';
 
 
-library.add(faCoffee, faHome, faList, faCogs, faChartPie, faChartLine, faThLarge, faShoppingCart)
+library.add(faCoffee, faHome, faList, faCogs, faChartPie, faChartLine, faThLarge, faShoppingCart, faTruck)
 
 class App extends Component {
   render() {

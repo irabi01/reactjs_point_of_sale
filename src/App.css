@@ -1,0 +1,24 @@
+.w3-sidebar{
+    background: #191919 !important;
+}
+.w3-sidebar h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.w3-sidebar .w3-button{
+    background: #000 !important;
+    width: 50% !important;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 10px 0px 10px 40px;
+    border-radius: 10px;
+    /* top, right, bottom, left */
+}
+.w3-sidebar .w3-button:hover{
+    background: #000 !important;
+    width: 50%;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 10px;
+}
