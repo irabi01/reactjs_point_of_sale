@@ -22,3 +22,26 @@
     text-decoration: none;
     border-radius: 10px;
 }
+
+
+
+
+/* setting_container */
+.setting_container{
+    padding: 50px 0px;
+}
+.setting_container h1{
+    font-size: 20px;
+}
+.setting_container .link{
+    text-decoration: none;
+    margin: 10px 0px;
+    color: #000;
+}
+.setting_container .content{
+    text-transform: capitalize;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
