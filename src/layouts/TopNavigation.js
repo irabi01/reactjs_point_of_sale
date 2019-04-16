@@ -16,6 +16,16 @@ class TopNavigation extends Component {
                             <Link className="nav-link" to="#">welcome ...</Link>
                         </li>
                     </ul>
+                    <ul className="navbar-nav">
+                        <div className="bell_help">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#"><FontAwesomeIcon className="icon" icon="bell" /></Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#"><FontAwesomeIcon className="icon" icon="question-circle" /></Link>
+                            </li>
+                        </div>
+                    </ul>
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link className="nav-link" to="#"><mark>email@domain.com</mark></Link>

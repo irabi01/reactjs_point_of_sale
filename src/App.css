@@ -8,22 +8,40 @@
 }
 .w3-sidebar .w3-button{
     background: #000 !important;
-    width: 50% !important;
+    width: 90% !important;
+    height: 50px !important;
     color: #fff !important;
+    padding-top:15px !important; 
     text-decoration: none;
-    margin: 10px 0px 10px 40px;
+    margin: 10px 0px 10px 10px;
     border-radius: 10px;
     /* top, right, bottom, left */
 }
+.w3-sidebar .w3-button .icon{
+    font-size: 20px;
+}
+.w3-sidebar .w3-button span{
+    padding-left: 10px;
+}
 .w3-sidebar .w3-button:hover{
     background: #000 !important;
-    width: 50%;
+    width: 90%;
     color: #fff !important;
     text-decoration: none;
     border-radius: 10px;
 }
 
 
+
+/* top navigation */
+.navbar-nav .bell_help{
+    margin-left: 400px !important;
+    display: inline-flex;
+}
+.navbar-nav .bell_help .icon{
+    font-size: 20px;
+    color: #000;
+}
 
 
 /* setting_container */

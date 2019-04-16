@@ -17,19 +17,19 @@ class SideNavigation extends Component {
       <Router>
         <div>
           {/* Sidebar */}
-          <div className="w3-sidebar w3-bar-block" style={{"width" : "20%"}}>
+          <div className="w3-sidebar w3-bar-block" style={{"width" : "12%"}}>
             <h3 className="w3-bar-item">Logo</h3>
-            <Link to="/" className="w3-bar-item w3-button"><FontAwesomeIcon icon="home" /> Dashboard</Link>
-            <Link to="/pos" className="w3-bar-item w3-button"><FontAwesomeIcon icon="shopping-cart" /> POS</Link>
-            <Link to="/store" className="w3-bar-item w3-button"><FontAwesomeIcon icon="th-large" /> Store</Link>
-            <Link to="/suppliers" className="w3-bar-item w3-button"><FontAwesomeIcon icon="truck" /> Suppliers</Link>
-            <Link to="/accounts" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-pie" /> Accounts</Link>
-            <Link to="/reports" className="w3-bar-item w3-button"><FontAwesomeIcon icon="chart-line" /> Reports</Link>
-            <Link to="/settings" className="w3-bar-item w3-button"><FontAwesomeIcon icon="cogs" /> Settings</Link>
+            <Link to="/" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="home" /> <span>Dashboard</span></Link>
+            <Link to="/pos" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="shopping-cart" /> <span>POS</span></Link>
+            <Link to="/store" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="th-large" /> <span>Store</span></Link>
+            <Link to="/suppliers" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="truck" /> <span>Suppliers</span></Link>
+            <Link to="/accounts" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="chart-pie" /> <span>Accounts</span></Link>
+            <Link to="/reports" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="chart-line" /> <span>Reports</span></Link>
+            <Link to="/settings" className="w3-bar-item w3-button"><FontAwesomeIcon className="icon" icon="cogs" /> <span>Settings</span></Link>
           </div>
 
           {/* Page Content */}
-          <div style={{"marginLeft" : "20%"}}>
+          <div style={{"marginLeft" : "12%"}}>
               {/* <div className="w3-container w3-teal">
                   <h1>Point of Sale ... v1.0.0</h1>
               </div> */}

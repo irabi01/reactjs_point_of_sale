@@ -13,7 +13,9 @@ import {
    faThLarge,
    faShoppingCart,
    faTruck,
-   faSignOutAlt
+   faSignOutAlt,
+   faBell,
+   faQuestionCircle
   } from '@fortawesome/free-solid-svg-icons'
 
 import SideNavigation from './layouts/SideNavigation';
@@ -29,7 +31,9 @@ library.add(
   faThLarge, 
   faShoppingCart, 
   faTruck,
-  faSignOutAlt
+  faSignOutAlt,
+  faBell,
+  faQuestionCircle
   )
 
 class App extends Component {
