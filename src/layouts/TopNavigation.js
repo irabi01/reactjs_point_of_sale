@@ -36,7 +36,12 @@ class TopNavigation extends Component {
                             <Link className="nav-link" to="#"><mark>email@domain.com</mark></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="#"><FontAwesomeIcon icon="sign-out-alt" /></Link>
+                            <Link className="nav-link" to="#"><FontAwesomeIcon icon="sign-out-alt" 
+                            style={{
+                                "color": "#fff",
+                                "fontSize":25
+                                }} 
+                                /></Link>
                         </li>
                     </ul>
                 </div>
