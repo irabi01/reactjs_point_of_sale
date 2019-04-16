@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Clock from 'react-live-clock'
 
 class TopNavigation extends Component {
   render() {
@@ -8,14 +9,6 @@ class TopNavigation extends Component {
       <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-100">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">datetime</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#">welcome ...</Link>
-                        </li>
-                    </ul>
                     <ul className="navbar-nav">
                         <div className="bell_help">
                             <li className="nav-item">
@@ -23,6 +16,17 @@ class TopNavigation extends Component {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#"><FontAwesomeIcon className="icon" icon="question-circle" /></Link>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul className="navbar-nav">
+                        <div className="time_format">
+                            <li className="nav-item">
+                                <Clock format={'HH:mm:ss'} ticking={true} />
+                            </li>
+                            {/* <hr/> */}
+                            <li className="nav-item">
+                                <Clock format={'dd-MM-YYYY'} ticking={true} />
                             </li>
                         </div>
                     </ul>

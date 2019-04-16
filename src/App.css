@@ -42,7 +42,13 @@
     font-size: 20px;
     color: #000;
 }
-
+.navbar-nav .time_format{
+    margin-left: 200px !important;
+    display: inline-flex;
+}
+.navbar-nav .time_format li{
+    margin-right:10px !important;
+}
 
 /* setting_container */
 .setting_container{
