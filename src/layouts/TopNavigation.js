@@ -26,7 +26,7 @@ class TopNavigation extends Component {
                             </li>
                             {/* <hr/> */}
                             <li className="nav-item">
-                                <Clock format={'dd-MM-YYYY'} ticking={true} />
+                                <Clock format={'dddd, MMMM Mo, YYYY'} ticking={true} />
                             </li>
                         </div>
                     </ul>
