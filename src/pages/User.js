@@ -18,56 +18,58 @@ export class User extends Component {
             <div className="row">
                 <div className="col-md-8 offset-md-2">
                     <div className="user_table">
-                        <table class="table table-striped table-bordered">
-                            <thead>
-                                <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First Name</th>
-                                <th scope="col">Last Name</th>
-                                <th scope="col">DOB</th>
-                                <th scope="col">Mobile Number</th>
-                                <th scope="col">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>12/9/1993</td>
-                                <td>+255 756 88888</td>
-                                <td>
-                                    <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
-                                    <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
-                                    <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
-                                </td>
-                                </tr>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>12/9/1993</td>
-                                <td>+255 756 88888</td>
-                                <td>
-                                    <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
-                                    <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
-                                    <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
-                                </td>
-                                </tr>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>12/9/1993</td>
-                                <td>+255 756 88888</td>
-                                <td>
-                                    <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
-                                    <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
-                                    <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
-                                </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="table-responsive">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">DOB</th>
+                                    <th scope="col">Mobile Number</th>
+                                    <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>12/9/1993</td>
+                                    <td>+255 756 88888</td>
+                                    <td>
+                                        <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
+                                        <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
+                                        <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>12/9/1993</td>
+                                    <td>+255 756 88888</td>
+                                    <td>
+                                        <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
+                                        <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
+                                        <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>12/9/1993</td>
+                                    <td>+255 756 88888</td>
+                                    <td>
+                                        <Link className="view btn btn-primary"><FontAwesomeIcon className="icon mx-2" icon="eye" /></Link>
+                                        <Link className="edit btn btn-info"><FontAwesomeIcon className="icon mx-2" icon="edit" /></Link>
+                                        <Link className="delete btn btn-danger"><FontAwesomeIcon className="icon mx-2" icon="trash" /></Link>
+                                    </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div> 
                 </div>
             </div>

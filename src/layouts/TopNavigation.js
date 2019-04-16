@@ -7,7 +7,7 @@ class TopNavigation extends Component {
   render() {
     return (
       <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav className="navbar navbar-expand-lg fixed-top navigation">
                 <Link class="navbar-brand" to="/">POS Logo</Link>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">

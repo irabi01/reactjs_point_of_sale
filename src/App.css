@@ -1,5 +1,5 @@
 .w3-sidebar{
-    background: #191919 !important;
+    background: #3399ff !important;
 }
 .w3-sidebar h3{
     color: #fff;
@@ -7,7 +7,7 @@
     margin-bottom: 30px;
 }
 .w3-sidebar .w3-button{
-    background: #000 !important;
+    background: #1b84ec !important;
     width: 90% !important;
     height: 50px !important;
     color: #fff !important;
@@ -34,17 +34,25 @@
 
 
 /* top navigation */
+.navigation{
+    background: #000;
+}
+.navigation .navbar-brand{
+    color: #fff;
+    font-size: 20px;
+}
 .navbar-nav .bell_help{
     margin-left: 400px !important;
     display: inline-flex;
 }
 .navbar-nav .bell_help .icon{
     font-size: 20px;
-    color: #000;
+    color: #fff;
 }
 .navbar-nav .time_format{
     margin-left: 200px !important;
     display: inline-flex;
+    color: #fff;
 }
 .navbar-nav .time_format li{
     margin-right:10px !important;
