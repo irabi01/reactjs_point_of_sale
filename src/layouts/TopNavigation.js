@@ -22,7 +22,7 @@ class TopNavigation extends Component {
                     <ul className="navbar-nav">
                         <div className="time_format">
                             <li className="nav-item">
-                                <Clock format={'HH:mm:ss'} ticking={true} />
+                                <Clock format={'HH:mm:ss A'} ticking={true} />
                             </li>
                             {/* <hr/> */}
                             <li className="nav-item">
