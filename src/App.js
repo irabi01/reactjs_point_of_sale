@@ -15,7 +15,10 @@ import {
    faTruck,
    faSignOutAlt,
    faBell,
-   faQuestionCircle
+   faQuestionCircle,
+   faEye,
+   faTrash,
+   faEdit
   } from '@fortawesome/free-solid-svg-icons'
 
 import SideNavigation from './layouts/SideNavigation';
@@ -33,7 +36,10 @@ library.add(
   faTruck,
   faSignOutAlt,
   faBell,
-  faQuestionCircle
+  faQuestionCircle,
+  faEye,
+  faEdit,
+  faTrash
   )
 
 class App extends Component {

@@ -7,9 +7,10 @@ export class Setting extends Component {
       <div className="setting_container">
         <div className="container">
         <h1>Setting</h1>
+        <hr/>
           <div className="row">
             <div className="col-md-3">
-              <Link className="link">
+              <Link className="link" to="/add-user">
                 <div className="content">
                   register user
                 </div>

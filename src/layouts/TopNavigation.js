@@ -7,12 +7,13 @@ class TopNavigation extends Component {
   render() {
     return (
       <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <Link class="navbar-brand" to="/">POS Logo</Link>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <div className="bell_help">
                             <li className="nav-item">
-                                <Link className="nav-link" to="#"><FontAwesomeIcon className="icon" icon="bell" /></Link>
+                                <Link className="nav-link" to="/notifications"><FontAwesomeIcon className="icon" icon="bell" /></Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#"><FontAwesomeIcon className="icon" icon="question-circle" /></Link>

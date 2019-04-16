@@ -9,6 +9,8 @@ import Reports from '../pages/Reports'
 import Setting from '../pages/Setting'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TopNavigation from './TopNavigation';
+import User from '../pages/User';
+import Notification from '../pages/Notification'
 
 
 class SideNavigation extends Component {
@@ -43,6 +45,8 @@ class SideNavigation extends Component {
                     <Route path = "/accounts" component = {Accounts}/>
                     <Route path = "/reports" component = {Reports}/>
                     <Route path = "/settings" component = {Setting}/>
+                    <Route path = "/add-user" component = {User}/>
+                    <Route path = "/notifications" component = {Notification}/>
                   </Switch>
               </div>
           </div>

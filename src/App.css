@@ -52,7 +52,7 @@
 
 /* setting_container */
 .setting_container{
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 .setting_container h1{
     font-size: 20px;
@@ -69,3 +69,98 @@
     text-align: center;
     border-radius: 5px;
 }
+
+.user_container{
+    padding: 100px 0px;
+}
+.user_container .add_button_part{
+    margin-bottom: 10px;
+}
+.user_container .add_button_part button{
+    background: #3399ff;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    outline: 0 !important;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+.user_container .modal{
+    padding: 20px 10px !important;
+}
+/* .user_container .modal .modal-dialog .modal-content h2{
+    padding-left: 10px !important;
+} */
+.user_container form input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #3399ff;
+    padding-left: 20px;
+    outline: 0 !important;
+}
+.user_container form select{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #3399ff;
+    padding-left: 20px;
+    outline: 0 !important;
+}
+.user_container form h2{
+    font-size: 15px;
+    text-transform: capitalize
+}
+.user_container form button{
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    text-transform: capitalize;
+    background: #3399ff;
+    border: none;
+    outline: 0 !important;
+}
+.user_table table td .btn{
+    margin-right: 4px;
+    border: none;
+    outline: 0 !important;
+    width: 60px;
+    height: 35px;
+}
+/* .user_table table td .edit{
+    background: #3399ff;
+    color: #fff;
+    border-radius: 5px;
+}
+.user_table table td .delete{
+    background: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+} */
+
+
+
+/* notification_container */
+.notification_container{
+    padding: 100px 0px;
+}
+.notification_container h1{
+    font-size: 20px;
+}
+.notification_container .notification_content{
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.notification_container .notification_content h1{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.notification_container .notification_content p{
+    font-size: 14px;
+}
+
+
+
+
+
